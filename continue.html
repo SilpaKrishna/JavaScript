@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h1>JavaScript Loops</h1>
+<p>A loop with a <b>continue</b> statement.</p>
+<p id="demo"></p>
+<script>
+var text = "";
+var i;
+for (i = 0; i < 5; i++) 
+{
+  if (i === 5) { continue; 
+}
+  text += "The number is " + i + "<br>";
+}
+document.getElementById("demo").innerHTML = text;
+</script>
+</body>
+</html>
